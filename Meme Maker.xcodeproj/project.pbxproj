@@ -12,6 +12,7 @@
 		980BCC14205C8AAB00401AF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980BCC12205C8AAB00401AF5 /* Main.storyboard */; };
 		980BCC16205C8AAB00401AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 980BCC15205C8AAB00401AF5 /* Assets.xcassets */; };
 		980BCC19205C8AAB00401AF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 980BCC17205C8AAB00401AF5 /* LaunchScreen.storyboard */; };
+		980BCC21205D9F1400401AF5 /* CaptionChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980BCC20205D9F1400401AF5 /* CaptionChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		980BCC15205C8AAB00401AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		980BCC18205C8AAB00401AF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		980BCC1A205C8AAB00401AF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		980BCC20205D9F1400401AF5 /* CaptionChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				980BCC0E205C8AAB00401AF5 /* AppDelegate.swift */,
 				980BCC10205C8AAB00401AF5 /* ViewController.swift */,
 				980BCC12205C8AAB00401AF5 /* Main.storyboard */,
+				980BCC20205D9F1400401AF5 /* CaptionChoice.swift */,
 				980BCC15205C8AAB00401AF5 /* Assets.xcassets */,
 				980BCC17205C8AAB00401AF5 /* LaunchScreen.storyboard */,
 				980BCC1A205C8AAB00401AF5 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				980BCC11205C8AAB00401AF5 /* ViewController.swift in Sources */,
+				980BCC21205D9F1400401AF5 /* CaptionChoice.swift in Sources */,
 				980BCC0F205C8AAB00401AF5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,9 +279,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87T6RG3PX5;
 				INFOPLIST_FILE = "Meme Maker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Meme-Maker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KimLyndon.Meme-Maker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +294,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87T6RG3PX5;
 				INFOPLIST_FILE = "Meme Maker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Meme-Maker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KimLyndon.Meme-Maker";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
